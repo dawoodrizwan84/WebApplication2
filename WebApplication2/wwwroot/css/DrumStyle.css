@@ -1,0 +1,201 @@
+﻿body {
+    background-color: black;
+    /* background-image: url('images/drum-set-1839383_640.jpg');*/
+    background-clip: padding-box;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+#h1 {
+    /* font-display: block;
+    font-variant-caps: all-petite-caps;
+    font-size: 4rem;
+    font-family:Dubai;
+    text-align: center;
+    color: #FAFA5A;
+    margin-bottom:100px;*/
+
+    color: #FAFA5A;
+    width: 300px;
+    height: 200px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: rotateX(25deg) rotateY(20deg) rotateZ(-3deg);
+    transform: rotateX(25deg) rotateY(20deg) rotateZ(-3deg);
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    margin-left: -180px;
+    -webkit-animation: anim 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation: anim 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+
+@-webkit-keyframes anim {
+    0% {
+        text-shadow: -6px 4px 0px red;
+    }
+
+    10% {
+        text-shadow: 4px -6px 0px green;
+    }
+
+    20% {
+        text-shadow: -9px 4px 0px blue;
+    }
+
+    30% {
+        text-shadow: 4px -6px 0px yellow;
+    }
+
+    40% {
+        text-shadow: -8px 4px 0px orange;
+    }
+
+    50% {
+        text-shadow: 4px 5px 0px purple;
+    }
+
+    60% {
+        text-shadow: -6px 4px 0px brown;
+    }
+
+    70% {
+        text-shadow: 4px 7px 0px pink;
+    }
+
+    80% {
+        text-shadow: -9px -4px 0px lime;
+    }
+
+    90% {
+        text-shadow: 4px -6px 0px cyan;
+    }
+
+    100% {
+        text-shadow: -9px 4px 0px teal;
+    }
+}
+
+@keyframes anim {
+    0% {
+        text-shadow: -6px 4px 0px red;
+    }
+
+    10% {
+        text-shadow: 4px -6px 0px green;
+    }
+
+    20% {
+        text-shadow: -9px 4px 0px blue;
+    }
+
+    30% {
+        text-shadow: 4px -6px 0px yellow;
+    }
+
+    40% {
+        text-shadow: -8px 4px 0px orange;
+    }
+
+    50% {
+        text-shadow: 4px 5px 0px purple;
+    }
+
+    60% {
+        text-shadow: -6px 4px 0px brown;
+    }
+
+    70% {
+        text-shadow: 4px 7px 0px pink;
+    }
+
+    80% {
+        text-shadow: -9px -4px 0px lime;
+    }
+
+    90% {
+        text-shadow: 4px -6px 0px cyan;
+    }
+
+    100% {
+        text-shadow: -9px 4px 0px teal;
+    }
+}
+
+
+
+#set {
+}
+
+
+.w {
+    background-image: url('images/tom1.png');
+    position: relative;
+    top: 100px;
+}
+
+.a {
+    background-image: url('images/tom2.png');
+}
+
+.s {
+    background-image: url('images/tom3.png');
+    position: relative;
+    top: 100px;
+}
+
+.d {
+    background-image: url('images/tom4.png');
+}
+
+.j {
+    background-image: url('images/snare.png');
+    position: relative;
+    top: 100px;
+}
+
+.k {
+    background-image: url('images/crash.png');
+}
+
+.l {
+    position: relative;
+    top: 100px;
+    background-image: url('images/kick.png');
+}
+
+.drum {
+    padding: 5px;
+    outline: none;
+    border: 10px solid #dece96;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 1;
+    font-weight: 800;
+    color: #DA0463;
+    text-shadow: 5px 0 #DBEDF3;
+    border-radius: 10px;
+    display: revert-layer;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}

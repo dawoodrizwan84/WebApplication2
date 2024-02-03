@@ -9,13 +9,15 @@ env:
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 8.0.x
   WORKING_DIRECTORY: WebApplication2
+
 jobs:
   build:
     runs-on: windows-latest
     steps:
+
     - uses: actions/checkout@v4
-    - name: Setup .NET SDK
-      uses: actions/setup-dotnet@v3
+    - name: Azure login
+      uses: azure/login@v1
       with:
         dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
     - name: Restore
@@ -46,3 +48,6 @@ jobs:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.WebApplication220240203102847_7B82 }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+
+               
+            

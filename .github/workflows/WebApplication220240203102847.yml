@@ -16,8 +16,8 @@ jobs:
     steps:
 
     - uses: actions/checkout@v4
-    - name: Azure login
-      uses: azure/login@v1
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v3
       with:
         dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
     - name: Restore

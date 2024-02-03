@@ -4231,12 +4231,12 @@
     query-string "^7.0.0"
     xcase "^2.0.1"
 
-"@gitbeaker/core@^39.34.1":
-  version "39.34.1"
-  resolved "https://registry.yarnpkg.com/@gitbeaker/core/-/core-39.34.1.tgz#8cc00319de32bcae1c03c26bfb7f66413ae0e232"
-  integrity sha512-burkkdEwRzk8aJq/UF9vVH9+F3yZKXHe2tpLsIgTwXG975Q2wSYbHRIsvJeslPR4s378bXEg/KoSMYcfB7WGQg==
+"@gitbeaker/core@^39.34.2":
+  version "39.34.2"
+  resolved "https://registry.yarnpkg.com/@gitbeaker/core/-/core-39.34.2.tgz#c9b7d9af51b6adee79428efde8dce3fc4de9c855"
+  integrity sha512-Vs1BKnEMnHltq1nMuBKxust1E+JUroDVKLy87ElLgvjAkH726mEVJCFnNC2/o2Ru7Et2qqhFN+PlUeYzzAbU2w==
   dependencies:
-    "@gitbeaker/requester-utils" "^39.34.1"
+    "@gitbeaker/requester-utils" "^39.34.2"
     qs "^6.11.2"
     xcase "^2.0.1"
 
@@ -4260,10 +4260,10 @@
     qs "^6.10.1"
     xcase "^2.0.1"
 
-"@gitbeaker/requester-utils@^39.34.1":
-  version "39.34.1"
-  resolved "https://registry.yarnpkg.com/@gitbeaker/requester-utils/-/requester-utils-39.34.1.tgz#8872bc98ed235919d054e6b83be3249ba397eca9"
-  integrity sha512-+7V7lJaIHS5L8NOi8O6THpBjB4soaCH5XEnG88uebGLCfUfvW3eR8pV02K3wS/9pVr3ASmz/7pFZnoCUUXZi8w==
+"@gitbeaker/requester-utils@^39.34.2":
+  version "39.34.2"
+  resolved "https://registry.yarnpkg.com/@gitbeaker/requester-utils/-/requester-utils-39.34.2.tgz#295cbb7cdf460988f438cb3bb956ce4c0f92655c"
+  integrity sha512-ToCwNKQe/+uHjB2kPTXY72SvbAyjsPABb9T1EiMGuVahk6rWdhtVZIM659rGuqdJGTqQ4y18wk0A+w6D3Z2lCQ==
   dependencies:
     picomatch-browser "^2.2.6"
     qs "^6.11.2"
@@ -4271,12 +4271,12 @@
     xcase "^2.0.1"
 
 "@gitbeaker/rest@^39.25.0":
-  version "39.34.1"
-  resolved "https://registry.yarnpkg.com/@gitbeaker/rest/-/rest-39.34.1.tgz#cac29c9bd8b90e11226c78a82c759bf213d4a543"
-  integrity sha512-8v09WmKMexRiApxKDN2C6kzMX3LFxGMTr2h+XaaZWRvN+pgINGUwlzYo8OL53NuCG/LqKoaUfSweUlUjfd6b5A==
+  version "39.34.2"
+  resolved "https://registry.yarnpkg.com/@gitbeaker/rest/-/rest-39.34.2.tgz#4048a6da3d66b9a9f99d7f61437ed59b71286213"
+  integrity sha512-MT4Vue1ltvsR7Nug18A6DIk+u+gu64+b0Un/R2XIsLB7eSAX8Pm/sQnYxsjHksroZJVlyGHiGsaxbllX75Pntg==
   dependencies:
-    "@gitbeaker/core" "^39.34.1"
-    "@gitbeaker/requester-utils" "^39.34.1"
+    "@gitbeaker/core" "^39.34.2"
+    "@gitbeaker/requester-utils" "^39.34.2"
 
 "@google-cloud/firestore@^7.0.0":
   version "7.3.0"
@@ -7833,9 +7833,9 @@
     defer-to-connect "^2.0.0"
 
 "@tanstack/react-virtual@^3.0.0-beta.60":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-virtual/-/react-virtual-3.0.3.tgz#902cf0aa28abd363d089b6958677afb170b8c2a0"
-  integrity sha512-/9vRwU4Q1/Fc/wds4SFrrqnK3z48aGwr9+Y/64b/rZ5SWCz6xXXPHELhxRs7OJkys3+Zz4IVYd+Z/HjvHsRpkA==
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-virtual/-/react-virtual-3.0.4.tgz#32a90aa6faa2eeebb5f4ca561d26bae9f3435e45"
+  integrity sha512-tiqKW/e2MJVCr7/pRUXulpkyxllaOclkHNfhKTo4pmHjJIqnhMfwIjc1Q1R0Un3PI3kQywywu/791c8z9u0qeA==
   dependencies:
     "@tanstack/virtual-core" "3.0.0"
 
@@ -8464,9 +8464,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^16.13.1 || ^17.0.0", "@types/react@^18":
-  version "18.2.51"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.51.tgz#01ede6dfc712796257a3443bf8d613149e5c322a"
-  integrity sha512-XeoMaU4CzyjdRr3c4IQQtiH7Rpo18V07rYZUucEZQwOUEtGgTXv7e6igQiQ+xnV6MbMe1qjEmKdgMNnfppnXfg==
+  version "18.2.52"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.52.tgz#83ca0c62bd1ff31464dac4cf1937e55c78f77aa2"
+  integrity sha512-E/YjWh3tH+qsLKaUzgpZb5AY0ChVa+ZJzF7ogehVILrFpdQk6nC/WXOv0bfFEABbXbgNxLBGU7IIZByPKb6eBw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -9789,9 +9789,9 @@ before-after-hook@^2.2.0:
   integrity sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==
 
 better-sqlite3@^9.0.0:
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-9.3.0.tgz#2a8aaad65fa0210a4df5e8a0bcbc9156f6138d56"
-  integrity sha512-ww73jVpQhRRdS9uMr761ixlkl4bWoXi8hMQlBGhoN6vPNlUHpIsNmw4pKN6kjknlt/wopdvXHvLk1W75BI+n0Q==
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-9.4.0.tgz#f3e70ceab8e5950dd45516977c0ff7cf167f8455"
+  integrity sha512-5kynxekMxSjCMiFyUBLHggFcJkCmiZi6fUkiGz/B5GZOvdRWQJD0klqCx5/Y+bm2AKP7I/DHbSFx26AxjruWNg==
   dependencies:
     bindings "^1.5.0"
     prebuild-install "^7.1.1"
@@ -11966,9 +11966,9 @@ ejs@^3.1.7:
     jake "^10.8.5"
 
 electron-to-chromium@^1.4.648:
-  version "1.4.655"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.655.tgz#112410db0d7f9c2b4ed8baa3b1b548522a6f89d4"
-  integrity sha512-2yszojF7vIZ68adIOvzV4bku8OZad9w5H9xF3ZAMZjPuOjBarlflUkjN6DggdV+L71WZuKUfKUhov/34+G5QHg==
+  version "1.4.656"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.656.tgz#b374fb7cab9b782a5bc967c0ce0e19826186b9c9"
+  integrity sha512-9AQB5eFTHyR3Gvt2t/NwR0le2jBSUNwCnMbUCejFWHD+so4tH40/dRLgoE+jxlPeWS43XJewyvCv+I8LPMl49Q==
 
 elliptic@^6.5.3, elliptic@^6.5.4:
   version "6.5.4"
@@ -13426,7 +13426,7 @@ get-caller-file@^2.0.5:
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
-get-intrinsic@^1.0.2, get-intrinsic@^1.1.1, get-intrinsic@^1.1.3, get-intrinsic@^1.2.0, get-intrinsic@^1.2.1, get-intrinsic@^1.2.2:
+get-intrinsic@^1.0.2, get-intrinsic@^1.1.1, get-intrinsic@^1.1.3, get-intrinsic@^1.2.1, get-intrinsic@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.2.2.tgz#281b7622971123e1ef4b3c90fd7539306da93f3b"
   integrity sha512-0gSo4ml/0j98Y3lngkFEot/zhiCeWsbYIlZ+uZOVgzLyLaUw7wxUL+nCTP0XJvJg1AXulJRI3UJi8GsbDuxdGA==
@@ -13714,9 +13714,9 @@ google-auth-library@^8.0.0:
     lru-cache "^6.0.0"
 
 google-auth-library@^9.0.0:
-  version "9.6.1"
-  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.6.1.tgz#f22c575383a7900c63de189e1a66b61e50ebda19"
-  integrity sha512-rPL44wV0yJnA11+ggxA348ylUY1o7mkcHLwlZNlLZsKROPLl7q3LgMU5nM65h1QpxhJu/shk2FLml7173XIthA==
+  version "9.6.2"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.6.2.tgz#c615b9186ee1871eab4703a9d07206c8c73d46a7"
+  integrity sha512-8G5i+uELrRE244PGnTc9UxiWZ2FMWD5jiIe9P2XSxCvXv/0ip/phjeHSE4bhJnLBdJb+Bu/Gj9Lr33TmDnbAiw==
   dependencies:
     base64-js "^1.3.0"
     ecdsa-sig-formatter "^1.0.11"
@@ -14542,13 +14542,12 @@ is-arguments@^1.0.4, is-arguments@^1.1.1:
     has-tostringtag "^1.0.0"
 
 is-array-buffer@^3.0.1, is-array-buffer@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/is-array-buffer/-/is-array-buffer-3.0.2.tgz#f2653ced8412081638ecb0ebbd0c41c6e0aecbbe"
-  integrity sha512-y+FyyR/w8vfIRq4eQcM1EYgSTnmHXPqaF+IgzgraytCFq5Xh8lllDVmAZolPJiZttZLeFSINPYMaEJ7/vWUa1w==
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/is-array-buffer/-/is-array-buffer-3.0.4.tgz#7a1f92b3d61edd2bc65d24f130530ea93d7fae98"
+  integrity sha512-wcjaerHw0ydZwfhiKbXJWLDY8A7yV7KhjQOpb83hGgGfId/aQa4TOvwyzn2PuswW2gPCYEL/nEAiSVpdOj1lXw==
   dependencies:
     call-bind "^1.0.2"
-    get-intrinsic "^1.2.0"
-    is-typed-array "^1.1.10"
+    get-intrinsic "^1.2.1"
 
 is-arrayish@^0.2.1:
   version "0.2.1"
@@ -17982,6 +17981,11 @@ oauth-sign@~0.9.0:
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
 
+oauth@0.10.x:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/oauth/-/oauth-0.10.0.tgz#3551c4c9b95c53ea437e1e21e46b649482339c58"
+  integrity sha512-1orQ9MT1vHFGQxhuy7E/0gECD3fd2fCC+PIX+/jgmU/gI3EpRocXtmtvxCO5x3WZ443FLTLFWNDjl5MPJf9u+Q==
+
 oauth@0.9.x:
   version "0.9.15"
   resolved "https://registry.yarnpkg.com/oauth/-/oauth-0.9.15.tgz#bd1fefaf686c96b75475aed5196412ff60cfb9c1"
@@ -18584,12 +18588,12 @@ passport-oauth2@1.6.1:
     utils-merge "1.x.x"
 
 passport-oauth2@1.x.x, passport-oauth2@^1.1.2, passport-oauth2@^1.4.0, passport-oauth2@^1.6.0, passport-oauth2@^1.6.1:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/passport-oauth2/-/passport-oauth2-1.7.0.tgz#5c4766c8531ac45ffe9ec2c09de9809e2c841fc4"
-  integrity sha512-j2gf34szdTF2Onw3+76alNnaAExlUmHvkc7cL+cmaS5NzHzDP/BvFHJruueQ9XAeNOdpI+CH+PWid8RA7KCwAQ==
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/passport-oauth2/-/passport-oauth2-1.8.0.tgz#55725771d160f09bbb191828d5e3d559eee079c8"
+  integrity sha512-cjsQbOrXIDE4P8nNb3FQRCCmJJ/utnFKEz2NX209f7KOHPoX18gF7gBzBbLLsj2/je4KrgiwLLGjf0lm9rtTBA==
   dependencies:
     base64url "3.x.x"
-    oauth "0.9.x"
+    oauth "0.10.x"
     passport-strategy "1.x.x"
     uid2 "0.0.x"
     utils-merge "1.x.x"
@@ -19935,9 +19939,9 @@ react-use@^17.2.4, react-use@^17.3.2:
     tslib "^2.1.0"
 
 react-virtualized-auto-sizer@^1.0.11:
-  version "1.0.21"
-  resolved "https://registry.yarnpkg.com/react-virtualized-auto-sizer/-/react-virtualized-auto-sizer-1.0.21.tgz#c840bbc80a691aee030d090785b98142102013c5"
-  integrity sha512-RedZxj452+ITLfqIrR02BjvCaXV63YVIcVrvmruDZXFpJGazg4gHNs1AShPGVLvEuLGZdZ9AtkGKhWvzEujL8g==
+  version "1.0.22"
+  resolved "https://registry.yarnpkg.com/react-virtualized-auto-sizer/-/react-virtualized-auto-sizer-1.0.22.tgz#5aca94a45c91c9fe6ec57d711a65e6a55d0da71b"
+  integrity sha512-2CGT/4rZ6jvVkKqzJGnZlyQxj4rWPKAwZR80vMlmpYToN18xaB0yIODOoBltWZLbSgpHBpIk0Ae1nrVO9hVClA==
 
 react-window@^1.8.6:
   version "1.8.10"

@@ -9,6 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\images\crash.png" />
+    <None Include="wwwroot\images\drum-set-1839383_640.jpg" />
+    <None Include="wwwroot\images\kick.png" />
+    <None Include="wwwroot\images\snare.png" />
+    <None Include="wwwroot\images\tom1.png" />
+    <None Include="wwwroot\images\tom2.png" />
+    <None Include="wwwroot\images\tom3.png" />
+    <None Include="wwwroot\images\tom4.png" />
     <None Include="wwwroot\sounds\crash.mp3" />
     <None Include="wwwroot\sounds\kick-bass.mp3" />
     <None Include="wwwroot\sounds\snare.mp3" />

@@ -1,7 +1,8 @@
 ﻿
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
-for (var i = 0; i < numberOfDrumButtons; i++) {
+for (var i = 0; i < numberOfDrumButtons; i++)
+{
 
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
 
@@ -80,6 +81,8 @@ function buttonAnimation(currentKey) {
     }, 100);
 
 }
+
+
 
 
 
